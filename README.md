@@ -146,7 +146,7 @@ You can customize the Istio installation using the Flux `HelmReleases` located a
 [istio/system/istio.yaml](https://github.com/stefanprodan/gitops-istio/blob/main/istio/system/istio.yaml):
 
 ```yaml
-apiVersion: helm.toolkit.fluxcd.io/v2beta1
+apiVersion: helm.toolkit.fluxcd.io/v2
 kind: HelmRelease
 metadata:
   name: istio-gateway
